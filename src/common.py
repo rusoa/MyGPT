@@ -1,0 +1,9 @@
+tokens_len_max = 128  # 512
+token_features_len = 192  # 768
+vocab_types_len = 10000  # 40000
+data_filepath = "./data_compiled/data.pt"
+vocab_to_id_map_filepath = "./dict/vocab_to_id_map.bin"
+id_to_vocab_map_filepath = "./dict/id_to_vocab_map.bin"
+id_to_token_map_filepath = "./dict/id_to_token_map.bin"
+weights_filepath = "./weights/default.pt"
+model_device = "cuda:0"
